@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="/assets/front/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Shop thương mại điện tử</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                Danh Mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item  category-item--active">
+                                    <a href="#" class="category-item__link">Áo Khoác</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Áo Vest</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Quần Jeans</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Quần Dài / Quần Âu</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class=" select-input__icon fa-solid fa-chevron-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">
+                                            Giá : Thấp đến Cao
+                                        </a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="#" class="select-input__link">
+                                            Giá : Cao đến Thấp
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/12
+
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Sản phẩm -->
+                        <div class="home-product home-product-item-warrper">
+                            <!-- Gird  base 2  cột  -->
+                            <!--  Sản phẩm chiếm 10 cột -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lh6ftdrsgwfm2d);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo thun tay lỡ form rộng unisex PANDA,
+                                                Áo
+                                                phông nam nữ form rộng ATL05</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">60.000đ</span>
+                                                <span class="home-product-item__price-current">29.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    88 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134211-23030-8f5slus60dov9c);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Nỉ Nam Dài Tay Khóa Kéo Có Mũ
+                                                Trùm Họa Tiết Chữ K Zenkonam MEN JK 034</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">198.000đ</span>
+                                                <span class="home-product-item__price-current">99.000đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    88 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134211-23030-j6bxlus60dov23);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Nỉ Nam Dài Tay Khóa Kéo Có Mũ
+                                                Trùm Họa Tiết Chữ K Zenkonam MEN JK 035</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">200.000đ</span>
+                                                <span class="home-product-item__price-current">99.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    88 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnstrs6kgz96b8);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo khoác gió nam-nữ 2 lớp 𝐂𝐨́ 𝐓𝐮́𝐢
+                                                𝐓𝐫𝐨𝐧𝐠, Áo khoác dù chất liệu vải gió cao cấp kháng nước full tem
+                                                tag phụ kiện</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">310.000đ</span>
+                                                <span class="home-product-item__price-current">137.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    882 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNGs
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lmarkv7pjh7j0b);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo khoác gió nam-nữ 2 lớp 𝐂𝐨́ 𝐓𝐮́𝐢
+                                                𝐓𝐫𝐨𝐧𝐠, Áo khoác dù chất liệu vải gió cao cấp kháng nước full tem
+                                                tag phụ kiện</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">620.000đ</span>
+                                                <span class="home-product-item__price-current">292.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    818 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Gosn
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfyy2336aprref);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Chạy Sọc Thêu Chữ
+                                                Trước Hot Hit - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">225.000đ</span>
+                                                <span class="home-product-item__price-current">124.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    8222 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lfyy23369b7b4b);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Chạy Sọc Thêu Chữ
+                                                Trước Hot Hit - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">602.000đ</span>
+                                                <span class="home-product-item__price-current">229.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    818 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VNG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ chí minh
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">10%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-kp40pwelpfnv6b);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ USCDFI Cổ Đứng Sành
+                                                Điệu - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">225.000đ</span>
+                                                <span class="home-product-item__price-current">100.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    188 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    VmG
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố hồ gươm
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">30%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-23020-2v0fx2i1m9mvcf);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nữ Sọc Tay MT095 2 Lớp Lên
+                                                Form Siêu Chuẩn - CLITUS FASHION</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">225.000đ</span>
+                                                <span class="home-product-item__price-current">152.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    188 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    ohun
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố nam định
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">60%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134201-23030-ro340279a8nv59);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Cổ Đứng Phối Sọc Tay
+                                                SYMBOLIC Sành Điệu - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">620.000đ</span>
+                                                <span class="home-product-item__price-current">292.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    388 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Vi
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố nha trang
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">60%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134201-23030-tr476179a8nvdf);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Cổ Đứng Phối Sọc Tay
+                                                SYMBOLIC Sành Điệu - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1220.000đ</span>
+                                                <span class="home-product-item__price-current">592.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    388 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Vi
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố nha trang
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">50%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134201-23030-poq4ad5rb8nvc6);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Cổ Đứng Phối Sọc Tay
+                                                SYMBOLIC Sành Điệu - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">1220.000đ</span>
+                                                <span class="home-product-item__price-current">892.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    1388 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Vi
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố nha trang
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">40%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134201-23030-ntjhmhnqb8nv1c);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo Khoác Dù Nam Nữ Cổ Đứng Phối Sọc Tay
+                                                SYMBOLIC Sành Điệu - CLITUS</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">220.000đ</span>
+                                                <span class="home-product-item__price-current">200.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    2388 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Vi
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố nha trang
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">5%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-22120-1m39ce04slkve4);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo khoác bomber nam mẫu trơn chất dù xịn
+                                                2 lớp, có túi trong, form cá tính thời trang.</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">250.000đ</span>
+                                                <span class="home-product-item__price-current">210.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    1288 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Via
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố cam pu chia
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">5%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="#" class="home-pro__link">
+                                        <div class="home-product-item">
+                                            <!-- dùng ackgroud Image  để phù hợp vs ảnh -->
+                                            <div class="home-product-item__img"
+                                                style="background-image: url(https://down-vn.img.susercontent.com/file/sg-11134201-22120-9f07me04slkvaa);">
+                                            </div>
+                                            <h4 class="home-product-item__name">Áo khoác bomber nam mẫu trơn chất dù xịn
+                                                2 lớp, có túi trong, form cá tính thời trang.</h4>
+                                            <div class="home-product-item__price">
+                                                <span class="home-product-item__price-old">250.000đ</span>
+                                                <span class="home-product-item__price-current">40.900đ</span>
+                                            </div>
+                                            <div class="home-product-item__action">
+                                                <span class="home-product-item__like ">
+                                                    <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                    <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                </span>
+                                                <div class="home-product-item__rating" id="rating">
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="home-product-item__star--gold fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <span class="home-product-item__sold">
+                                                    188 đã bán
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__origin">
+                                                <span class="home-product-item__brand">
+                                                    Via
+                                                </span>
+                                                <span class="home-product-item__origin-name">
+                                                    Thành phố cam pu chia
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__favourite">
+                                                <i class="fas fa-check"></i>
+                                                <span>
+                                                    Yêu thích
+                                                </span>
+                                            </div>
+                                            <div class="home-product-item__sale-off">
+                                                <span class="home-product-item__sale-off-percent">60%</span>
+                                                <span class="home-product-item__sale-off-lable">
+                                                    Giảm
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Phân trang -->
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    5
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    ...
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    12
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+          
+        </footer>
+    </div>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+      $(document).ready(function(){
+            $('.footer').load('page/headerandfooter/footer.html');
+        });
+        $(document).ready(function(){
+            $('.header').load('page/headerandfooter/header.html');
+        });
+        
+</script>

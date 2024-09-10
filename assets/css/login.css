@@ -1,0 +1,359 @@
+/*  Đăng Ký */
+
+
+.container-register {
+    background-color: rgb(238, 78, 46);
+}
+
+.login__container {
+    background-image: url("https://down-vn.img.susercontent.com/file/sg-11134004-7rdyv-ly0k8p7r473d50");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.J2KMC {
+    height: 600px;
+}
+
+
+.IEKwEi {
+    margin: 0 auto;
+    min-height: 600px;
+    width: 1040px;
+    display: flex;
+    align-items: center;
+}
+
+
+.login__container-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__container-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.AKMCJMS {
+    width: 400px;
+}
+
+.login__container-box-2 {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .14);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.login__container-box-heading {
+    box-sizing: border-box;
+    min-height: 60px;
+}
+
+.login__container-box-heading-1 {
+    padding: 2.375rem 30px;
+    width: 100%;
+}
+
+.login__container-box-heading-3 {
+    color: #222;
+    font-size: 1.7rem;
+    font-weight: 700;
+    max-width: 8.5rem;
+}
+
+.login__container-box-heading-3 {
+    flex-shrink: 0;
+}
+
+
+.login__container-box-body {
+    overflow: hidden;
+    padding: 0 30px 30px;
+}
+
+.login__container-box-body-1 {
+    margin-bottom: 10px;
+}
+
+.login__container-box-body-2 {
+    border: 1px solid rgba(0, 0, 0, .14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, .02);
+    box-sizing: border-box;
+    height: 3.5rem;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.login__container-box-input {
+    border: 0;
+    filter: none;
+    flex: 1;
+    flex-shrink: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+.login__container-box-body-button {
+    width: 100%;
+}
+
+
+.login__container-box-body-button:hover {
+    cursor: pointer;
+    background-color: #eb9d8d;
+}
+
+
+.login__container-box-and {
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px 10px;
+}
+
+
+.p__MPF {
+    background-color: #dbdbdb;
+    flex: 1;
+    height: 1px;
+    width: 100%;
+}
+
+.login__container-box-body-and-1 {
+    color: #ccc;
+    font-size: 1.2rem;
+    padding: 0 16px;
+    text-transform: uppercase;
+}
+
+.btn-regesion {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .26);
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .87);
+    font-size: .875rem;
+    height: 40px;
+    outline: none;
+    padding: 0 2px;
+}
+
+.login__container-box-icon {
+    padding-right: 7px;
+}
+
+
+.U1k5YB {
+    flex: 1;
+    margin: 5px;
+}
+
+
+.login__container-box-body-4 {
+    margin: 0 -5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.login__container-boxx-agree {
+    color: rgba(0, 0, 0, .87);
+    font-size: 1.2rem;
+    margin-top: 1.5625rem;
+    text-align: center;
+}
+
+
+.login__container-boxx-agree-1 {
+    margin-right: .3125rem;
+    padding: 0 1.5625rem
+}
+
+.MKM122 {
+    color: #ee4d2d;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.login__container-box-bottom {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login__container-box-bottom-1 {
+    color: rgba(0, 0, 0, .26);
+    padding-right: 4px;
+    white-space: pre;
+}
+
+
+.HYOM {
+    font-size: 1.1rem
+}
+
+
+.login____box {
+    color: #ee4d2d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/*  Đăng nhập */
+.KMCJSI {
+    max-width: 10.5rem;
+}
+
+
+.login_container_body-bottom {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.login_container_body-bottom-link {
+    color: #05a;
+    text-decoration: none;
+    font-size: 1.1rem;
+    -webkit-text-decoration: none;
+}
+
+/* quên pass */
+
+
+.container-forgot-password {
+    margin: 0 auto;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; 
+}
+
+.container-forgot-password-body {
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 400px;
+    padding: 20px; 
+}
+
+.container-forgot-password-heading {
+    box-sizing: border-box;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eaeaea; 
+}
+
+.container-forgot-password-heading-1 {
+    width: 100%;
+    box-sizing: initial;
+    display: flex;
+    align-items: center;
+}
+
+.container-forgot-password-btn {
+    background-color: transparent;
+    border: none;
+    width: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.container-forgot-password-icon {
+    fill: #ee4d2d;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 2rem;
+}
+
+.container-forgot-password-iheading-2 {
+    color: #222;
+    font-size: 1.5rem; 
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container-forgot-password-iheading-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container-forgot-password-body-cm {
+    padding: 20px 0;
+}
+
+.container-forgot-password-body-cm-1 {
+    margin: 20px 0;
+}
+
+.container-forgot-password-body-cm-2 {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+.container-forgot-password-body-cm-input {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 10px;
+    font-size: 1.3rem; 
+}
+
+.container-forgot-password-heading-1 a {
+    text-decoration: none;
+}
+
+.container-forgot-password-body-cm-input-dmk2k2-1 {
+    color: #ff424f;
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+
+.btn--primary {
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%; 
+    text-align: center;
+}
+
+.btn--primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

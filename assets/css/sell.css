@@ -1,0 +1,116 @@
+.sell__container {
+    width: 100%;
+}
+
+.welcome__seller {
+    width: 1200px;
+    background: #fff;
+    margin: 16px auto 64px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 24px;
+    text-align: center;
+}
+
+.cmcmcm {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.seller__1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 24px auto 32px;
+    width: 352px;
+}
+
+.seller__img {
+    width: 200px;
+    height: 200px;
+}
+
+.seller__title {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 32px 0 16px;
+    text-align: center;
+}
+
+.seller__desc{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+/* Sell DK */
+/* .welcome__seller_1 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.welcome__seller_1 form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;  }
+
+.welcome__seller_1 .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome__seller_1 label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px; 
+}
+
+.welcome__seller_1 input[type="text"],
+.welcome__seller_1 input[type="email"],
+.welcome__seller_1 input[type="tel"] {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; 
+}
+
+.welcome__seller_1 input[type="text"]:focus,
+.welcome__seller_1 input[type="email"]:focus,
+.welcome__seller_1 input[type="tel"]:focus {
+    border-color: #ff5722;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.5); 
+}
+
+.welcome__seller_1 button[type="submit"] {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 14px; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.welcome__seller_1 button[type="submit"]:hover {
+    background-color: #e64a19;
+}
